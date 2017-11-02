@@ -1,5 +1,5 @@
 //
-//  Model.swift
+//  Vehicle.swift
 //  RideShare
 //
 //  Created by sahand sadri on 11/2/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Model: UIViewController {
+class Vehicle: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,6 @@ class Model: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
     
 
     /*

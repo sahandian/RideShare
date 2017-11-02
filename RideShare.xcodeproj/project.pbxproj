@@ -16,6 +16,8 @@
 		5D1CE4461FAB9187005DE0FF /* RideShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE4451FAB9187005DE0FF /* RideShareTests.swift */; };
 		5D1CE4511FAB9187005DE0FF /* RideShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE4501FAB9187005DE0FF /* RideShareUITests.swift */; };
 		5D1CE45F1FAB9448005DE0FF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE45E1FAB9448005DE0FF /* Model.swift */; };
+		5D1CE4651FAB9AFE005DE0FF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE4641FAB9AFE005DE0FF /* User.swift */; };
+		5D1CE4671FAB9BD4005DE0FF /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE4661FAB9BD4005DE0FF /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5D1CE4501FAB9187005DE0FF /* RideShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideShareUITests.swift; sourceTree = "<group>"; };
 		5D1CE4521FAB9187005DE0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D1CE45E1FAB9448005DE0FF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5D1CE4641FAB9AFE005DE0FF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		5D1CE4661FAB9BD4005DE0FF /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		5D1CE42C1FAB9186005DE0FF /* RideShare */ = {
 			isa = PBXGroup;
 			children = (
+				5D1CE4641FAB9AFE005DE0FF /* User.swift */,
+				5D1CE4661FAB9BD4005DE0FF /* Trip.swift */,
 				5D1CE42D1FAB9186005DE0FF /* AppDelegate.swift */,
 				5D1CE42F1FAB9186005DE0FF /* ViewController.swift */,
 				5D1CE4311FAB9186005DE0FF /* Main.storyboard */,
@@ -265,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1CE4671FAB9BD4005DE0FF /* Trip.swift in Sources */,
 				5D1CE4361FAB9186005DE0FF /* RideShare.xcdatamodeld in Sources */,
 				5D1CE4301FAB9186005DE0FF /* ViewController.swift in Sources */,
+				5D1CE4651FAB9AFE005DE0FF /* User.swift in Sources */,
 				5D1CE42E1FAB9186005DE0FF /* AppDelegate.swift in Sources */,
 				5D1CE45F1FAB9448005DE0FF /* Model.swift in Sources */,
 			);
