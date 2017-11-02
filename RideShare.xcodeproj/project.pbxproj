@@ -15,6 +15,7 @@
 		5D1CE43B1FAB9186005DE0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1CE4391FAB9186005DE0FF /* LaunchScreen.storyboard */; };
 		5D1CE4461FAB9187005DE0FF /* RideShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE4451FAB9187005DE0FF /* RideShareTests.swift */; };
 		5D1CE4511FAB9187005DE0FF /* RideShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE4501FAB9187005DE0FF /* RideShareUITests.swift */; };
+		5D1CE45F1FAB9448005DE0FF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CE45E1FAB9448005DE0FF /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5D1CE44C1FAB9187005DE0FF /* RideShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1CE4501FAB9187005DE0FF /* RideShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideShareUITests.swift; sourceTree = "<group>"; };
 		5D1CE4521FAB9187005DE0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1CE45E1FAB9448005DE0FF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5D1CE4391FAB9186005DE0FF /* LaunchScreen.storyboard */,
 				5D1CE43C1FAB9186005DE0FF /* Info.plist */,
 				5D1CE4341FAB9186005DE0FF /* RideShare.xcdatamodeld */,
+				5D1CE45E1FAB9448005DE0FF /* Model.swift */,
 			);
 			path = RideShare;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				5D1CE4361FAB9186005DE0FF /* RideShare.xcdatamodeld in Sources */,
 				5D1CE4301FAB9186005DE0FF /* ViewController.swift in Sources */,
 				5D1CE42E1FAB9186005DE0FF /* AppDelegate.swift in Sources */,
+				5D1CE45F1FAB9448005DE0FF /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
